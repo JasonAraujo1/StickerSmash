@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# StickerSmash
 
-## Get started
+StickerSmash é um aplicativo mobile que permite aos usuários criar, gerenciar e compartilhar stickers personalizados de forma simples e rápida. Com ele, você pode transformar suas imagens favoritas em stickers, organizá-los em coleções e compartilhar com amigos diretamente pelo app.
 
-1. Install dependencies
+## O que acontece no projeto
 
+- Crie stickers a partir de imagens da galeria ou câmera.
+- Organize seus stickers em diferentes coleções para facilitar o acesso.
+- Compartilhe stickers com outros usuários do StickerSmash.
+- Interface amigável e intuitiva, focada na melhor experiência do usuário.
+
+## Tecnologias Utilizadas
+
+- **React Native**: Para desenvolvimento multiplataforma (Android e iOS).
+- **Expo**: Facilita o desenvolvimento e testes do app.
+- **Firebase**: Autenticação de usuários, armazenamento de imagens e banco de dados em tempo real.
+- **React Navigation**: Navegação entre telas do aplicativo.
+- **TypeScript**: Para adicionar tipagem estática ao código JavaScript, aumentando a robustez e a manutenção do projeto.
+
+## Instalação
+
+1. Clone o repositório:
    ```bash
+   git clone https://github.com/seu-usuario/StickerSmash.git
+   ```
+2. Instale as dependências:
+   ```bash
+   cd StickerSmash
    npm install
    ```
-
-2. Start the app
-
+3. Execute o projeto:
    ```bash
-   npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+## Contribuição
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Licença
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[MIT]
