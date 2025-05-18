@@ -1,6 +1,7 @@
 
 # StickerSmash
 
+
 StickerSmash é um aplicativo mobile que permite aos usuários criar, gerenciar e compartilhar stickers personalizados de forma simples e rápida. Com ele, você pode transformar suas imagens favoritas em stickers, organizá-los em coleções e compartilhar com amigos diretamente pelo app.
 
 ## O que acontece no projeto
